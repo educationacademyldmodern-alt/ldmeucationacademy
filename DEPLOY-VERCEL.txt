@@ -1,0 +1,14 @@
+VERCEL FIXED DEPLOYMENT
+
+1. Use a CLEAN GitHub repository, or first delete old project files.
+2. Upload ONLY the files from this ZIP to the repository ROOT.
+3. Make sure NO old package.json, api folder, server.js, next.config.js, vercel/functions folder or backend file is left.
+4. Vercel -> Add New -> Project -> Import repository.
+5. Framework Preset: Other.
+6. Build Command: leave empty.
+7. Output Directory: leave empty.
+8. Install Command: leave empty.
+9. Deploy.
+10. Open the new .vercel.app URL.
+
+This is a pure static HTML/CSS/JS ERP, so Vercel should not invoke a Serverless Function.
